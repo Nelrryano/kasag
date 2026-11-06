@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blackrock Billiards – Billiard tables for sale in the Philippines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f6f2; --surface:#ffffff; --ink:#18221e; --muted:#566660; --line:#d9dfd8;
+  --baize:#0e5a45; --baize-deep:#0b0f0d; --rail:#5a2a1e; --chalk:#2f6fc0; --on-baize:#f2f6f3;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1512; --surface:#15201b; --ink:#eef3ef; --muted:#9fb1a9; --line:#2a3a33; --baize:#1b8a6a; --chalk:#7ab0f2; color-scheme:dark;}}
+:root[data-theme="dark"]{--bg:#0d1512; --surface:#15201b; --ink:#eef3ef; --muted:#9fb1a9; --line:#2a3a33; --baize:#1b8a6a; --chalk:#7ab0f2; color-scheme:dark;}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{font:800 20px "Bricolage Grotesque",sans-serif;text-decoration:none}
+nav{display:flex;gap:18px;font-size:15px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+.btn{display:inline-block;background:var(--chalk);color:#fff;border:0;border-radius:6px;padding:12px 20px;font:700 16px Figtree,sans-serif;text-decoration:none;cursor:pointer;text-align:center}
+.btn.alt{background:transparent;color:var(--on-baize);box-shadow:inset 0 0 0 2px var(--on-baize)}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--line)}
+.btn:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--chalk);outline-offset:2px}
+.hero{background:var(--baize-deep);color:var(--on-baize);padding:44px 0 56px}
+.hero .wrap{display:grid;gap:32px;align-items:center}
+@media(min-width:820px){.hero .wrap{grid-template-columns:1fr 1.2fr}}
+.hero h1{font-size:clamp(36px,6vw,58px);font-weight:800}
+.hero p{max-width:46ch;color:#c4d3cc;margin:16px 0 24px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero img{width:100%;height:auto;display:block;border-radius:10px}
+.trust{background:var(--surface);border-bottom:1px solid var(--line)}
+.trust ul{list-style:none;margin:0;padding:18px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));font-size:15px;color:var(--muted)}
+.trust b{color:var(--ink)}
+section{padding:60px 0}
+section h2{font-size:clamp(28px,4vw,38px);margin-bottom:8px}
+.sub{color:var(--muted);max-width:60ch;margin:0 0 28px}
+h3.grp{font-size:24px;margin:34px 0 4px}
+h3.grp:first-of-type{margin-top:0}
+.gnote{color:var(--muted);margin:0 0 16px;font-size:15px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:6px;overflow:hidden}
+.card .table-img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;border-radius:7px;background:var(--bg)}
+.card h4{font:800 22px "Bricolage Grotesque",sans-serif;margin:0}
+.card .tag{color:var(--muted);font-size:14px;min-height:1.4em}
+.price{font:800 28px "Bricolage Grotesque",sans-serif;margin-top:auto;padding-top:10px}
+.card .btn{padding:10px;margin-top:8px}
+.band{background:var(--surface);border-block:1px solid var(--line)}
+.cols{display:grid;gap:32px}
+@media(min-width:820px){.cols{grid-template-columns:1fr 1fr}.cols.three{grid-template-columns:repeat(3,1fr)}}
+.box{border-left:4px solid var(--rail);padding-left:16px}
+.box h3{font-size:20px;margin-bottom:8px}
+.box ul,.specs{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.gallery{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:820px){.gallery{grid-template-columns:repeat(4,1fr)}}
+.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block}
+form{display:grid;gap:14px}
+label{font-weight:700;font-size:15px;display:grid;gap:6px}
+input,select,textarea{font:inherit;padding:11px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%}
+#note{min-height:1.4em;color:var(--baize);font-weight:700}
+.contact p{margin:0 0 10px}
+.contact .cta{margin-top:16px}
+footer{background:var(--baize-deep);color:#c4d3cc;padding:28px 0;font-size:15px}
+@media(max-width:640px){nav{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top">Blackrock Billiards</a>
+  <nav><a href="#tables">Prices</a><a href="#included">What’s included</a><a href="#gallery">Photos</a><a href="#contact">Contact</a></nav>
+  <a class="btn" href="#contact">Get a quote</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <div>
+    <h1>Billiard tables for your home, bar or pool hall.</h1>
+    <p>Wood or marble flooring, from 36 × 63 inches up to full 5 × 9 feet. Every table comes with balls, cues, triangle, chalk and cue rack.</p>
+    <div class="cta"><a class="btn" href="#tables">See prices</a><a class="btn alt" href="#contact">Message us</a></div>
+  </div>
+  <img src="hero.jpg" alt="Brown 5 by 9 foot Maxima 8 style billiard table with green cloth and copper corners" width="1000" height="750">
+</div></div>
+
+<div class="trust"><div class="wrap"><ul>
+  <li><b>From ₱17,000</b> for a 36 × 63 inch table</li>
+  <li><b>Marble slate</b> on every marble flooring table</li>
+  <li><b>Japan Simonis cloth</b> and K66 US cushion rubber</li>
+  <li><b>Leg levelers</b> so the table sits flat</li>
+</ul></div></div>
+
+<section id="tables"><div class="wrap">
+  <h2>Sizes and prices</h2>
+  <p class="sub">All prices are in Philippine pesos. Flooring means the playing bed under the cloth. Message us for a shipping quote to your area.</p>
+  <div id="groups"></div>
+</div></section>
+
+<section class="band" id="included"><div class="wrap">
+  <h2>What’s included</h2>
+  <p class="sub">Accessories come with the table. Nothing extra to buy before you play.</p>
+  <div class="cols three">
+    <div class="box"><h3>36 × 63 and 42 × 74 inches</h3><ul><li>Set of balls</li><li>2 tako roscas</li><li>Center spot</li><li>Triangle</li><li>Tisa</li><li>Cue rack</li></ul></div>
+    <div class="box"><h3>4 × 8 feet</h3><ul><li>Set of balls</li><li>2 tako roscas</li><li>Center spot</li><li>Triangle</li><li>Tisa</li><li>Cue rack</li><li>Panargo</li><li>Tiririt</li></ul></div>
+    <div class="box"><h3>5 × 9 feet</h3><ul><li>2 tako deroscas</li><li>1 tako panargo</li><li>1 tiririt</li><li>1 set of tisa</li><li>Triangle</li><li>Set of balls</li><li>Center dot</li><li>Cue rack</li></ul></div>
+  </div>
+  <h3 class="grp" style="margin-top:40px">Build and materials</h3>
+  <ul class="specs">
+    <li>Kiln-dry hardwood or eco-for wood frame</li>
+    <li>Marble slate, Tereza made</li>
+    <li>Master banda K66 US cushion rubber</li>
+    <li>Japan Simonis tapete (cloth)</li>
+    <li>Hansinburg balls</li>
+    <li>Metal cornering and hard plastic pockets</li>
+    <li>Leg leveler</li>
+  </ul>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+  <h2>Tables we have delivered</h2>
+  <p class="sub">Photos from our recent jobs.</p>
+  <div class="gallery">
+    <img src="table-42x74.jpg" alt="42 by 74 inch black table with green cloth on a balcony" loading="lazy">
+    <img src="gallery-2.jpg" alt="Brown table with blue cloth and copper corners" loading="lazy">
+    <img src="gallery-3.jpg" alt="Player taking a shot on a blue cloth table" loading="lazy">
+    <img src="gallery-4.jpg" alt="Customer giving a thumbs up beside a green cloth table" loading="lazy">
+    <img src="gallery-5.jpg" alt="Black and brown table with green cloth in a bright room" loading="lazy">
+    <img src="gallery-6.jpg" alt="Bright blue cloth table with a game in progress" loading="lazy">
+    <img src="gallery-7.jpg" alt="Small black table with blue cloth and accessories on top" loading="lazy">
+    <img src="gallery-8.jpg" alt="Customer shaking hands beside a small brown table" loading="lazy">
+  </div>
+</div></section>
+
+<section class="band" id="contact"><div class="wrap cols">
+  <div class="contact">
+    <h2>Ask for a quote</h2>
+    <p class="sub">Tell us the size you want and where it should go. We will reply with the total price including shipping.</p>
+    <p><b>Viber:</b> +63 946 537 1546<br><b>Messenger:</b> zjeven.tejano.3<br><b>Email:</b> zjeven.02@gmail.com</p>
+    <div class="cta">
+      <a class="btn" href="https://m.me/zjeven.tejano.3" rel="noopener">Message on Messenger</a>
+      <a class="btn ghost" href="viber://chat?number=%2B639465371546">Chat on Viber</a>
+    </div>
+  </div>
+  <form id="f">
+    <label>Your name<input name="name" required autocomplete="name"></label>
+    <label>Mobile number<input name="phone" required inputmode="tel" autocomplete="tel"></label>
+    <label>Table<select name="table" id="sel"></select></label>
+    <label>City or province<input name="city" required placeholder="e.g. Cebu City"></label>
+    <label>Notes<textarea name="msg" rows="3" placeholder="Room size, floor level, home or bar use"></textarea></label>
+    <button class="btn" type="submit">Send inquiry by email</button>
+    <div id="note" role="status"></div>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">Blackrock Billiards. Prices may change; message us to confirm before ordering.</div></footer>
+
+<script>
+// Each table item now has: [name, price, note, image path].
+// Put your table photos inside the "images" folder using these filenames,
+// or change the image path here to match your own photo filenames.
+var G=[
+ {h:"Wood flooring",n:"Lower-priced tables for homes and small spaces.",i:[["36 × 63 inches",17000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["42 × 74 inches",19000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["4 × 8 feet",42000,"With metal feet","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"]]},
+ {h:"Marble flooring",n:"Marble slate for a flatter, steadier playing surface.",i:[["36 × 63 inches",32000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["42 × 74 inches",35000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["4 × 8 feet",56000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["5 × 9 feet, ordinary",68000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["5 × 9 feet, Maxima 7 copy",70000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["5 × 9 feet, Maxima 8 copy",73000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"]]},
+ {h:"Original Maxima",n:"Original branded tables.",i:[["Maxima 7",125000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["Maxima 7+",130000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"],["Maxima 8",135000,"","{A92836A0-888D-4224-A99E-EF2CFBED400E}.png"]]}
+];
+var peso=function(n){return "₱"+n.toLocaleString("en-PH")};
+var out=document.getElementById("groups"),sel=document.getElementById("sel");
+G.forEach(function(g){
+  var html='<h3 class="grp">'+g.h+'</h3><p class="gnote">'+g.n+'</p><div class="grid">';
+  g.i.forEach(function(t){
+    var label=(g.h==="Original Maxima"?"":g.h+", ")+t[0];
+    var imagePath=t[3]||"images/table-placeholder.jpg";
+    var imageAlt=t[0]+" billiard table - "+g.h;
+    html+='<div class="card"><img class="table-img" src="'+imagePath+'" alt="'+imageAlt+'" loading="lazy"><h4>'+t[0]+'</h4><div class="tag">'+(t[2]||"&nbsp;")+'</div><div class="price">'+peso(t[1])+'</div><a class="btn" href="#contact" data-t="'+label+' ('+peso(t[1])+')">Ask about this table</a></div>';
+    sel.insertAdjacentHTML("beforeend",'<option>'+label+' ('+peso(t[1])+')</option>');
+  });
+  out.insertAdjacentHTML("beforeend",html+'</div>');
+});
+out.addEventListener("click",function(e){var a=e.target.closest("[data-t]");if(a)sel.value=a.dataset.t});
+document.getElementById("f").addEventListener("submit",function(e){
+  e.preventDefault();var d=new FormData(e.target);
+  var body="Name: "+d.get("name")+"\nMobile: "+d.get("phone")+"\nTable: "+d.get("table")+"\nLocation: "+d.get("city")+"\nNotes: "+d.get("msg");
+  document.getElementById("note").textContent="Opening your email app. Thank you, "+d.get("name")+".";
+  location.href="mailto:zjeven.02@gmail.com?subject="+encodeURIComponent("Quote request: "+d.get("table"))+"&body="+encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
